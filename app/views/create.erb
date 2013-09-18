@@ -2,18 +2,17 @@
 
 <form action="/create" method="POST">
 <div>
-  <label for="first_name">First Name: </label>
-  <input id="first_name" type="text" name="post[first_name]">
-  <label for="last_name">Last Name: </label>
-  <input id="last_name" type="text" name="post[last_name]">
+  <label for="title">Title: </label>
+  <input id="title" type="text" name="post[title]">
+  <label for="category">Category: </label>
+  <input id="category" type="text" name="category">
   <label for="email">Email: </label>
   <input id="email" type="email" name="post[email]">
+  
   <label for="price">Price: </label>
   <input id="price" type="text" name="post[price]">  
   <label for="content">Content: </label>
-  <textarea cols="40" rows="6" id="content" name="post[content]">
-  
-  </textarea>
+  <textarea cols="40" rows="6" id="content" name="post[content]"></textarea>
   <input type="submit" value="Submit post">
 </div>
 </form>
