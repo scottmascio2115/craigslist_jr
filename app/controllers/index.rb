@@ -32,5 +32,5 @@ post '/create' do
   category.posts << new_post
   new_post.save
   
-  redirect to ('/cat/post')
+  redirect to ("/cat/#{category.name}/#{new_post.id}")
 end

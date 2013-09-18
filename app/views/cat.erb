@@ -1,11 +1,13 @@
 
+<div class="inner_container">
   <h1><a href="/">CraigsList Jr.</a></h1>
-  <h3><a href="/cat/<%= @category.name %>">Category Name</a></h3>
+  <h3><a href="/cat/<%= @category.name %>"><%= @category.name%></a></h3>
 
-  <ul>
-    <% @category.posts.each do |post| %>
-      <li> <a href= "/cat/<%= @category.name %>/<%= post.id %>"><%= post.title %></a> </li>
-    <% end %>
-  </ul>
- 
-
+  <div class="list">
+    <ul>
+      <% @category.posts.each do |post| %>
+        <li> <a href= "/cat/<%= @category.name %>/<%= post.id %>"><%= post.title %></a> </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

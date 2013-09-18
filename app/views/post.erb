@@ -1,11 +1,17 @@
 
 
   <h1><a href="/">CraigsList Jr.</a></h1>
-  <h3><a href="/cat">Category Name</a></h3>
-  <h5>Post Tile</h5>
+  <h3><a href="/cat/<%=@category.name%>"><%= @category.name%></a></h3>
+  <h4><%= @post.title  %></h4>
   <div>
     <p>
-      Post Content:
+    Price: <%= @post.price %>
+    </p> 
+  </div>
+  <div>
+    <p>
+      <%= @post.content %>
     </p>
   </div>
+
  
