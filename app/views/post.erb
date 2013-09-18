@@ -1,17 +1,17 @@
+<div class="category">
+<h2><a href="/cat/<%=@category.name%>">> <%= @category.name%></a></h2>
+</div>
 
-
-  <h1><a href="/">CraigsList Jr.</a></h1>
-  <h3><a href="/cat/<%=@category.name%>"><%= @category.name%></a></h3>
-  <h4><%= @post.title  %></h4>
-  <div>
-    <p>
-    Price: <%= @post.price %>
-    </p> 
-  </div>
-  <div>
-    <p>
-      <%= @post.content %>
-    </p>
-  </div>
+<h3><%= @post.title  %></h3>
+<div>
+  <p>
+  Price: <%= @post.price %>
+  </p> 
+</div>
+<div>
+  <p>
+    <%= @post.content %>
+  </p>
+</div>
 
  

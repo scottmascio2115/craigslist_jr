@@ -1,25 +1,87 @@
-.container {
-  margin: 0 auto;
+body {
+  margin: 8px 0;
+  padding: 0;
+}
+
+.header {
   width: 40%;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
-  background-color: #DDD;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #eee;
+  position: relative;
+  top: 0;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
 }
-
-h1 {
+.header h1 {
+  margin: 0 10px;
+}
+.header h1 a {
   text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.header h1 a:hover {
+  text-decoration: underline;
+  background-color: white;
+}
+.container {
+  width: 40%;
+  padding: 0;
+  margin: 0 auto;
 }
 
+.category {
+  width: 100%;
+  margin: 10px 0;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+.category h2 {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #eee;
+}
+
+.item {
+  width: 100%;
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 1px dotted black;
+  list-style: none;
+}
+.item a {
+  padding: 0 32px;
+}
 
 .list {
-  margin: 0 auto;
-  position: relative;
-  left: 40%;
+  margin: 0;
+  border-top: 1px dotted black;  
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .new_post {
-  margin: 0 auto;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 0;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
   text-align: center;
+}
+.new_post a {
+  padding: 0;
 }
 
 .input_field {
@@ -34,15 +96,10 @@ h1 {
 
 }
 
-ul {
-  margin: 10px 0;
-  padding: 0;
-
+.span_after {
+  padding-right: 10px;
 }
 
-li {
-  list-style: none;
-}
 
 th {
   text-align: left;
