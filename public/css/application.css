@@ -1,9 +1,49 @@
 .container {
-  margin: 20px auto;
-  width: 600px;
+  margin: 0 auto;
+  width: 40%;
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
+  background-color: #DDD;
 }
+
+h1 {
+  text-align: center;
+}
+
+
+.list {
+  margin: 0 auto;
+  position: relative;
+  left: 40%;
+}
+
+.new_post {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input_field {
+
+  margin: 10px;
+}
+
+.form_container {
+  margin: 10px auto;
+
+  top: 0;
+
+}
+
+ul {
+  margin: 10px 0;
+  padding: 0;
+
+}
+
+li {
+  list-style: none;
+}
+
 th {
   text-align: left;
 }
